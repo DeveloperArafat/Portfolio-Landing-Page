@@ -1,0 +1,107 @@
+/* google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* header section */
+
+.navbar-nav a {
+    color: #fff;
+    background-color: rgb(209, 217, 220);
+    border-right: 1px solid rgb(186, 209, 238);
+    text-decoration: none;
+    padding: 10px;
+    margin-right: -2px;
+}
+
+.navbar-nav a:hover {
+    color: lightcoral;
+}
+
+.navbar-nav {
+    width: 50%;
+}
+
+
+/* profile */
+
+.name-intro {
+    color: #ff8367;
+}
+
+.hello {
+    color: #363958;
+}
+
+.btn {
+    background-image: linear-gradient( to right top, #d84040, #d24547, #cb4a4d, #c44f53, #bc5358);
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.prf-img {
+    border-radius: 30px 10px 30px;
+}
+
+
+/* Latest Working Section */
+
+.latest-color {
+    color: #f46060;
+}
+
+.working-color {
+    color: #363958;
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px 10px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+
+
+/* Inqury Banner section */
+
+.work-inquiry .btn {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+.work-inquiry h1 {
+    position: absolute;
+    font-size: 20px;
+    bottom: 50px;
+    color: #fff;
+    left: 50px;
+}
+
+.banner {
+    position: relative;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    margin-top: 80px;
+}
+
+
+/* ===== Footer Image ==== */
+
+.footer-img img {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+/******====> responsive****/
